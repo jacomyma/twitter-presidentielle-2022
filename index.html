@@ -26,6 +26,20 @@ body {
     <header>
       <h1>Twitter Présidentielle 2022</h1>
     </header>
+
+    <p>
+      I made this giant map for the French newspaper Le Monde. It was published, along with a series of articles, just before the first turn of the French presidential election of 2022. Subscribers can access <a href="https://www.lemonde.fr/politique/visuel/2022/03/31/plongee-dans-la-campagne-sur-twitter-entre-ecosysteme-militant-et-miroir-deformant_6120001_823448.html">the map and the articles online</a>.
+      This mini website makes the map browsable by anyone under the CC0-1.0 license.
+    </p>
+
+    <figure>
+      <img src="img/Le-Monde-2022-photo-scaled.jpg">
+      <caption>Test</caption>
+    </figure>
+    
+    <p>
+      <strong>Methodology. </strong>The network map represents about 30,000 Twitter accounts derived from an original corpus of about 600,000 tweets. Those tweets have been harvested by Linkfluence using two simple criteria: referring to at least one candidate to the presidential election, and being tweeted between the 3rd and the 21st of March 2022. In this context, referring to a candidate consists of tweeting a message containing their full name, their personal Twitter account, or the account dedicated to their campaign. These Twitter data were processed by Linkage, who assembled and passed to me a network consisting of those 50,000 accounts and their interactions. By interaction, I mean here the act of mentioning or retweeting another account in a tweet of the original corpus. The network I visualized in the final map is a subset of the network obtained from Linkage. I reduced the dataset in two steps. First, I filtered out the accounts with interactions with strictly less than 4 other not-filtered-out accounts, a subset known as the 4-core in the language of network analysis . Second, I removed clusters consisting of English-speaking accounts. The rationale for this second step is the presence of an intense discussion about the outgoing president Macron and his diplomatic endeavours following the invasion of Ukraine by Putin’s Russia. This discussion being almost entirely disconnected from the rest of the interactions, we (Linkfluence, Linkage, the journalists and I) decided to remove it from the corpus. The cluster was already identified in the data by Linkage’s community detection algorithms.
+    </p>
     <p>
       <a href="zoom/">Zoomable map</a>
     </p>
